@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-Yankees-Blue{
+    background-color:#22223B ;
+}
+*{
+  font-family: 'Monocraft';
+}
