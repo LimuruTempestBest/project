@@ -27,8 +27,8 @@ export const Contact = () => {
       );
   };
   return (
-    <div className="bg-Yankees-Blue w-full mt-10 ">
-      <div className="flex justify-center items-center min-h-[85%]">
+    <div className="bg-Yankees-Blue w-full absolute top-40 2xl:top-56 animate__animated animate__fadeInLeft">
+      <div className="flex justify-center items-center">
         <div className="flex">
           <div className="flex flex-col gap-6 p-10 bg-[#685c66] rounded">
             <div className=" font-black tracking-wider text-3xl underline underline-2 mt-3">

@@ -5,12 +5,12 @@ import { Icon } from "@iconify/react";
 import "animate.css";
 const Home = () => {
   return (
-    <div className=" ">
-      <div className="flex justify-between w-full p-2 ">
+    <div className="">
+      <div className="flex absolute top-40 2xl:top-56 justify-between w-full p-2">
         <div className="flex justify-center items-center w-[32rem] ml-7">
-          <div className="flex flex-col  animate__animated animate__fadeInLeft">
+          <div className="flex flex-col animate__animated animate__fadeInLeft">
             <div className="flex flex-col gap-2">
-              <div className="text-[#f2e9e4] text-6xl xl   tracking-wide mt-5">
+              <div className="text-[#f2e9e4] text-6xl xl tracking-wide">
                 Nostalgia
               </div>
               <div className="text-[#f2e9e4] text-6xl   tracking-wide">And</div>
@@ -29,8 +29,8 @@ const Home = () => {
               <div className="gap-2 flex flex-row">
                 <Link to="/Reminiscene" className="w-1/2">
                   <button className="bg-[#f2e9e4] mt-4 h-12 w-full     flex flex-row  items-center justify-center gap-2 hover:gap-4 transition-all hover:border-2 hover:bg-[#22223B] border-[#f2e9e4] hover:text-[#f2e9e4]  ">
-                    <Icon icon="ic:round-arrow-back" className="h-5 w-5" />
-                    Back
+                    <Icon icon="teenyicons:arrow-right-solid" className="h-5 w-5" />
+                    Start
                   </button>
                 </Link>
                 <Link to="/contact" className="w-1/2">
